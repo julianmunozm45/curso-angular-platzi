@@ -16,6 +16,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { SwiperModule, SWIPER_CONFIG } from 'ngx-swiper-wrapper';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { PageComponent } from './components/page/page.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,8 @@ import { SwiperModule, SWIPER_CONFIG } from 'ngx-swiper-wrapper';
     HeaderComponent,
     FooterComponent,
     BannerComponent,
+    PageNotFoundComponent,
+    PageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, SwiperModule],
   providers: [],
